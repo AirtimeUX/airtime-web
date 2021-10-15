@@ -1,0 +1,21 @@
+$primary: #4C7E85;
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+.btn.btn-primary:active, .btn.btn-primary:focus {
+  background-color: darken($primary, 10%) !important;
+  border-color: darken($primary, 10%) !important;
+}
+
+h1.site-logo a{
+  font-weight: 600;
+}
+
+.unit-4 h4 {
+  font-size: 18px;
+  color: #000;
+}
+
+.unit-4 .highlight {
+  font-size: 18px;
+  color: #000;
+}
