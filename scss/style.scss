@@ -1,9 +1,9 @@
-/* Airtime Custom */
-@import "airtime-custom";
-
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
+
+/* Airtime Custom */
+@import "airtime-custom";
 
 /* Base */
 @import "site-base";

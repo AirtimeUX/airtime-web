@@ -52,7 +52,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 	}
 	
 	h1 {
-		font-size: 52px;
+		font-size: 3.5rem;
 		font-weight: 400;
 		color: $black;
 		font-weight: 900;
@@ -803,7 +803,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
     }
   }
   h3 {
-    font-size: 24px;
+    font-size: 18px;
     color: $black;
     transition: .3s all ease;
   }
@@ -815,10 +815,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
   *:last-child {
   	margin-bottom: 0;
   }
-  &:hover {
-  	top: -7px;
-  }
-  /*
   &:hover {
   	background: $primary;
   	box-shadow: 0 4px 20px -5px rgba($primary, .4);
@@ -840,7 +836,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 	  	}
 	  }
   }
-  */
 }
 
 .h-entry {
