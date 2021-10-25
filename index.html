@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/pageclip.css" media="screen">
     <link rel="stylesheet" href="css/style.css">
-
 
     <!-- Icons -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32_light.png" />
@@ -223,40 +223,40 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-7">
-              <form action="#" class="p-5 bg-white">
+              <form action="https://send.pageclip.co/rKmqqWgl335waN3sRIHN9eyc4pSpjZC2/LandingPageContactForm" method="post" class="p-5 bg-white pageclip-form">
                 <div class="row form-group">
                   <div class="col-md-6 mb-3 mb-md-0">
                     <label class="text-black" for="fname">First Name</label>
-                    <input type="text" id="fname" class="form-control">
+                    <input type="text" id="fname" name="First Name" class="form-control">
                   </div>
                   <div class="col-md-6">
                     <label class="text-black" for="lname">Last Name</label>
-                    <input type="text" id="lname" class="form-control">
+                    <input type="text" id="lname" name="Last Name" class="form-control">
                   </div>
                 </div>
                 <div class="row form-group">
                   <div class="col-md-12">
                     <label class="text-black" for="email">Email</label> 
-                    <input type="email" id="email" class="form-control">
+                    <input type="email" id="email" name="Email" class="form-control" required>
                   </div>
                 </div>
                 <div class="row form-group">
                   <div class="col-md-12">
                     <label class="text-black" for="message">Message</label> 
-                    <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Leave your message here..."></textarea>
+                    <textarea id="message" name="Message" cols="30" rows="7" class="form-control" placeholder="Leave your message here..."></textarea>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-check d-flex">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                      <label class="form-check-label small" for="exampleCheck1">I agree with Airtime's <a href="#">Privacy Policy</a></label>
+                      <input type="checkbox" class="form-check-input" id="policyAccepted" name="Policy Accepted" required>
+                      <label class="form-check-label small" for="policyAccepted">I agree with Airtime's <a href="#">Privacy Policy</a></label>
                     </div>
                   </div>
                 </div>
                 <div class="row form-group">
                   <div class="col-md-12 text-center pt-3">
-                    <input type="submit" value="Send Message" class="btn main-cta mr-2 mb-2">
+                    <input type="submit" value="Send Message" class="btn main-cta mr-2 mb-2 pageclip-form__submit">
                   </div>
                 </div>
               </form>
@@ -286,6 +286,7 @@
   <script src="js/bootstrap.min.js"></script>  
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/pageclip.js" charset="utf-8"></script>
   
   </body>
 </html>
