@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 	    }
 		});
 	}; 
-	siteMenuClone();
+	//siteMenuClone();
 
 
 	var sitePlusMinus = function() {
@@ -170,7 +170,7 @@ jQuery(document).ready(function($) {
 	    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
 	  });
 	};
-	siteCarousel();
+	// siteCarousel();
 
 	var siteStellar = function() {
 		$(window).stellar({
@@ -196,7 +196,7 @@ jQuery(document).ready(function($) {
 		});
 				
 	};
-	siteCountDown();
+	// siteCountDown();
 
 	var siteDatePicker = function() {
 
@@ -205,12 +205,12 @@ jQuery(document).ready(function($) {
 		}
 
 	};
-	siteDatePicker();
+	// siteDatePicker();
 
 	var siteSticky = function() {
 		$(".js-sticky-header").sticky({topSpacing:0});
 	};
-	siteSticky();
+	// siteSticky();
 
 	// navigation
   var OnePageNavigation = function() {
@@ -247,6 +247,6 @@ jQuery(document).ready(function($) {
   	}) 
 
   };
-  siteScroll();
+  // siteScroll();
 
 });
