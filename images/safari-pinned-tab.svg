@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 100 100" width="100px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="50" y="50" angle="0"/>
+    <bx:guide x="50" y="50" angle="90"/>
+  </defs>
+  <path d="M 75.666 86 L 68.287 69.337 L 31.397 69.337 L 24.124 86 L 10 86 L 43.202 14 L 56.693 14 L 90 86 L 75.666 86 Z M 36.034 58.846 L 63.755 58.846 L 49.842 27.371 L 36.034 58.846 Z" style="fill: rgb(222, 66, 91); white-space: pre;"/>
+</svg>

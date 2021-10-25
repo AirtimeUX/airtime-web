@@ -1,24 +1,78 @@
 /* Airtime Custom */
+html {
+  scroll-behavior: smooth;
+}
+
 .btn.btn-primary:active, .btn.btn-primary:focus {
   background-color: #395f65 !important;
   border-color: #395f65 !important;
 }
 
-h1.site-logo a {
+.main-cta {
+  border-width: 2px;
+  background: #4C7E85;
+  border-color: #4C7E85;
+  color: #fff;
+  transition: 0.3s all ease;
+  box-shadow: 0px 2px 16px rgba(164, 178, 181, 0.5);
+}
+.main-cta:hover, .main-cta:active {
+  color: #fff;
+  background: #3d656b;
+  border-color: #3d656b;
+}
+
+.site-wrap {
+  overflow: hidden;
+}
+
+.site-banner {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.site-banner h1.site-logo a {
   font-weight: 600;
 }
 
+.site-cover {
+  overflow: hidden;
+  padding-top: 24px;
+  height: auto !important;
+  display: flex;
+  align-items: center;
+}
+.site-cover h1 {
+  font-size: 48px !important;
+  color: #000;
+  font-weight: 900;
+}
+.site-cover .title-highlight {
+  color: #DE425B;
+}
+.site-cover .hero-image {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .site-cover {
+    height: calc(100vh - 80px) !important;
+  }
+  .site-cover .hero-image {
+    width: 110%;
+  }
+}
 .highlight-box {
+  border-radius: 20px;
   padding: 30px;
-  background: #f1f1f1;
-  border-radius: 5px;
   transition: 0.3s all ease;
   position: relative;
   top: 0;
-  margin-bottom: 4em;
   text-align: center;
   padding-top: 50px;
   font-weight: 300;
+  box-shadow: 0px 2px 16px rgba(164, 178, 181, 0.5);
+  height: 100%;
 }
 .highlight-box .highlight-box-icon {
   position: absolute;
@@ -55,6 +109,62 @@ h1.site-logo a {
 }
 .highlight-box:hover {
   top: -7px;
+}
+
+.feature-steps .step-container {
+  position: relative;
+}
+.feature-steps .step-container h3 {
+  font-size: 18px;
+}
+.feature-steps .step-container p {
+  font-size: 14px;
+}
+.feature-steps .step-container .icon-wrap {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 576px) {
+  .feature-steps .step-container h3 {
+    font-size: 24px;
+  }
+  .feature-steps .step-container p {
+    font-size: 16px;
+  }
+  .feature-steps .step-container .icon-wrap {
+    font-size: 32px;
+  }
+}
+.hero-video {
+  box-shadow: 0px 2px 16px rgba(164, 178, 181, 0.5);
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.cta-container {
+  border-radius: 20px;
+  box-shadow: 0px 2px 16px rgba(164, 178, 181, 0.5);
+  overflow: hidden;
+}
+.cta-container .img-fluid {
+  border-radius: 20px 0px 0px 0px;
+}
+.cta-container .cta-header {
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 20px 20px 0 0;
+}
+.cta-container .form-control {
+  border-radius: 20px !important;
+  padding: 12px 20px;
+}
+
+.sponsor-image {
+  height: 120px;
 }
 
 /* Base */
