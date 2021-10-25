@@ -3,6 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
+a.link-accent {
+  color: #DE425B;
+}
+a.link-accent:hover, a.link-accent:active, a.link-accent:focus {
+  color: #ca233e;
+}
+
 .btn.btn-primary:active, .btn.btn-primary:focus {
   background-color: #395f65 !important;
   border-color: #395f65 !important;

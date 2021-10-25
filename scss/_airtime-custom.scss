@@ -12,6 +12,14 @@ html {
   scroll-behavior: smooth;
 }
 
+a.link-accent {
+  color: $accent;
+
+  &:hover, &:active, &:focus {
+    color: darken($accent, 10%);
+  }
+}
+
 .btn.btn-primary:active, .btn.btn-primary:focus {
   background-color: darken($primary, 10%) !important;
   border-color: darken($primary, 10%) !important;
