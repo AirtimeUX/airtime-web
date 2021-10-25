@@ -26,6 +26,10 @@ html {
   overflow: hidden;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 .site-banner {
   height: 80px;
   display: flex;
