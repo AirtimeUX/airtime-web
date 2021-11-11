@@ -64,6 +64,7 @@ a.link-accent:hover, a.link-accent:active, a.link-accent:focus {
 @media (min-width: 992px) {
   .site-cover {
     height: calc(100vh - 80px) !important;
+    max-height: 800px;
   }
   .site-cover .hero-image {
     width: 110%;

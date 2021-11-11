@@ -81,6 +81,7 @@ a.link-accent {
 @include media-breakpoint-up(lg) {
   .site-cover {
     height: calc(100vh - 80px)!important;
+    max-height: 800px;
 
     .hero-image {
       width: 110%;
