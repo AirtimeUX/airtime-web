@@ -1,7 +1,7 @@
 $primary: #4C7E85;
 $accent: #DE425B;
 $gray: #f6f6f6;
-$blue-black: #3F3D54;
+$purple: #3F3D54;
 $shadow-all-sides: 0px 2px 16px rgba(164, 178, 181, 0.5);
 $font-family-sans-serif: 'Montserrat', sans-serif;
 
@@ -44,6 +44,8 @@ a.link-accent {
   overflow: hidden;
 }
 
+//#3f3d54
+
 // SECTIONS
 
 .site-banner {
@@ -51,8 +53,8 @@ a.link-accent {
   display: flex;
   align-items: center;
 
-  h1.site-logo a{
-    font-weight: 600;
+  .site-logo {
+    height: 42px;
   }
 }
 

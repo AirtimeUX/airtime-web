@@ -38,8 +38,8 @@ a.link-accent:hover, a.link-accent:active, a.link-accent:focus {
   display: flex;
   align-items: center;
 }
-.site-banner h1.site-logo a {
-  font-weight: 600;
+.site-banner .site-logo {
+  height: 42px;
 }
 
 .site-cover {
