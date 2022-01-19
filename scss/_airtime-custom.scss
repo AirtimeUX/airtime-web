@@ -27,16 +27,16 @@ a.link-accent {
 
 .main-cta {
   border-width: 2px;
-  background: $primary;
-  border-color: $primary;
+  background: $accent;
+  border-color: $accent;
   color: $white;
   transition: 0.3s all ease;
   box-shadow: $shadow-all-sides;
 
   &:hover, &:active {
     color: $white;
-    background: darken($primary, 8%);
-    border-color: darken($primary, 8%);
+    background: darken($accent, 8%);
+    border-color: darken($accent, 8%);
   }
 }
 
@@ -67,8 +67,14 @@ a.link-accent {
 
   h1 {
     font-size: 48px!important;
-    color: $black;
+    color: $accent;
     font-weight: 900;
+  }
+
+  .subtitle {
+    //font-size: 24px;
+    color: $black;
+    font-weight: 600;
   }
 
   .title-highlight {

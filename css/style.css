@@ -17,16 +17,16 @@ a.link-accent:hover, a.link-accent:active, a.link-accent:focus {
 
 .main-cta {
   border-width: 2px;
-  background: #4C7E85;
-  border-color: #4C7E85;
+  background: #DE425B;
+  border-color: #DE425B;
   color: #fff;
   transition: 0.3s all ease;
   box-shadow: 0px 2px 16px rgba(164, 178, 181, 0.5);
 }
 .main-cta:hover, .main-cta:active {
   color: #fff;
-  background: #3d656b;
-  border-color: #3d656b;
+  background: #d22541;
+  border-color: #d22541;
 }
 
 .site-wrap {
@@ -51,8 +51,12 @@ a.link-accent:hover, a.link-accent:active, a.link-accent:focus {
 }
 .site-cover h1 {
   font-size: 48px !important;
-  color: #000;
+  color: #DE425B;
   font-weight: 900;
+}
+.site-cover .subtitle {
+  color: #000;
+  font-weight: 600;
 }
 .site-cover .title-highlight {
   color: #DE425B;
